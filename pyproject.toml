@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jelitaw_diffusion2d"
+version = "0.0.2"
+description = "A simple 2D diffusion simulator."
+readme = "README.md"
+license-files = ["LICENSE"]
+requires-python = ">=3.6"
+
+authors = [
+    { name = "jelitaw" }
+]
+
+dependencies = [
+    "numpy",
+    "matplotlib"
+]
+
+
+keywords = ["diffusion", "finite difference", "heat equation", "simulation", "exercise", "submission"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Repository = "https://github.com/Simulation-Software-Engineering/diffusion2D"
